@@ -1,0 +1,76 @@
+body {
+  background-image: url("../images/blackjack-classic-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+} 
+
+#heading {
+  font-family: 'Satisfy',
+  cursive;
+  background: black;
+  padding: 10px;
+
+}
+
+.blackjack-row1, .blackjack-row2, .blackjack-row3 {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.blackjack-row1 {
+  flex-direction: column;
+}
+
+.blackjack-row1 div {
+  padding: 10px;
+  text-align: center;
+}
+
+#dealer-cards, #player-cards {
+  height: 190px;
+}
+
+#dealer-cards {
+  margin-bottom: 5rem;
+}
+
+.blackjack-row1 img {
+  width: 25%;
+  padding: 10px;
+}
+
+.blackjack-row2 div {
+  margin: 1rem;
+  padding: 10px;
+}
+
+.dot {
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  background-color: #bbb;
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 1rem;
+}
+
+table, th, td {
+  padding: 10px;
+  color: white;
+}
+
+
+
+
+
+
